@@ -1,8 +1,16 @@
 import './App.css';
 
 function App() {
-  return <>const x = 10;
-   const y=20; // Bad spacing</>;
+  // --- PASTE BAD CODE HERE ---
+  const x = 10; // ESLint WILL catch this as unused
+  const y=20;   // Prettier WILL catch this bad spacing
+  // ---------------------------
+
+  return (
+    <div className="App">
+      <h1>Testing CI/CD</h1>
+    </div>
+  );
 }
 
 export default App;
