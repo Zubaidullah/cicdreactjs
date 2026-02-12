@@ -1,0 +1,1 @@
+build/ dist/ node_modules/ coverage/ .cache/ .next/ .nuxt/ .vscode/ .idea/ .DS_Store *.log *.lock package-lock.json yarn.lock pnpm-lock.yaml
